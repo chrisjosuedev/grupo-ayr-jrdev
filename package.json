@@ -1,0 +1,24 @@
+{
+  "name": "grupo-ayr-jrdev",
+  "version": "1.0.0",
+  "description": "Proyecto para manejar información de los clientes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node apps/api/src/app.js",
+    "dev": "turbo dev",
+    "build": "turbo build"
+  },
+  "keywords": [
+    "clients",
+    "devjr",
+    "prueba"
+  ],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.10.16"
+  }
+}
