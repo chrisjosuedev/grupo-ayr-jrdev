@@ -1,8 +1,15 @@
-# React + Vite
+# Gestión de Clientes Reactjs + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p style="justify-content: center">
+   <img src="https://img.shields.io/badge/versión-v1.0-blue.svg" alt="version">
+   <img src="https://img.shields.io/badge/status-completed-green" alt="status">
+</p>
 
-Currently, two official plugins are available:
+✨ Cliente desarrollado para gestión de clientes. | Prueba Técnica Grupo AyR.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚡️ Descripción
+Bienvenido al cliente esta prueba técnica, diseñado para acceder a los endpoint creados. El FW es desarrollado con Reactjs + Vitejs: En tabla, las paginaciones estan de 10 en 10, filtro mediante cualquier atributo, flechas `<<` y `>>` envian a la ultima página, al clickar en el encabezado de tabla, sort asc o desc, entre otras propiedades.
+
+> Vista previa
+
+![DB Config](https://github.com/chrisjosuedev/my-assets/blob/main/readms/screen%20client.jpg?raw=true)

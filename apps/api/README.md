@@ -14,34 +14,23 @@ Bienvenido al servidor de la API de esta prueba técnica, diseñado para gestion
 ## 👨‍💻 Documentation OpenAPI
 
 > Colección de los endpoints disponibles para gestión de Clientes.
-- [Review Documentation](https://documenter.getpostman.com/view/21748987/2s93m354Jn) 
+- [Review Documentation](https://documenter.getpostman.com/view/21748987/2s9YeAAuqh) 
 
 ## 🚀 Setup
+
+> Configuracion de Proyecto
+
+1. Tener instalado Nodejs (+16) y MySQL.
+2. Clonar el proyecto: `git clone https://github.com/chrisjosuedev/grupo-ayr-jrdev.git` (Omitir este paso si cuenta con el .zip del proyecto)
+3. Entrar a la carpeta raiz del proyecto:
+   `cd jrdev-prueba-cristhian-martinez`
+3. En la carpeta `scripts/init.sql` se encuentra el script sql que contiene la creación de la base de datos, asi como la tabla principal y algunos datos. Ejecute el script `init.sql` de dicha carpeta ya sea vía ``mysql -u <su_usuario> -p`` y ``source scripts/init.sql`` o mediante su GUI favorito (Ej. Workbench)
+4. Si clonó el proyecto desde git, instalar los módulos de node vía `npm install` en la carpeta root del proyecto ``.../jrdev-prueba-cristhian-martinez/``.
+
 > Para ejecutar el servidor REST, es necesario que realice las siguientes configuraciones. 
+1. Cambie en archivo `env` el PORT por el deseado y disponible, DB_USER por su usuario de base de datos y DB_PASSWORD por su contraseña de base de datos.
+2. Una vez realizadas las configuraciones anteriores, puede correr el servicio mediante:
+    - `npm start` para modo producción.
+    - `npm run dev` para desarrollo.
+3. Una vez realizado, el proyecto se ejecutara y puede acceder a través del puerto que selecciono, si no aporta, se ejecuta en :9090 por default.
 
-1. Clone this project: `git clone https://github.com/chrisjosuedev/grocery-rest-api.git`
-2. Go to the project folder:
-   `cd grocery-rest-api`
-3. Run `init.sql` script from init folder via mysql.
-4. Do some configuration:
-   > Configure a [Twilio Account](https://documentation.onesignal.com/docs/twilio-setup) and get your SID and TOKEN
-   > and create or use an Outlook account that will serve as the email server sender for the generated emails (If you want
-   > use other email service, check NOTES below.
-
-   Once your Twilio Account and Email is ready, create the follow environment variables:
-    - OUTLOOK_EMAIL: YOUR_EMAIL
-    - OUTLOOK_PASSWORD: YOUR_EMAIL_PASSWORD
-    - TWILIO_ACCOUNT_SID: YOUR_TWILIO_SID
-    - TWILIO_AUTH_TOKEN: YOUR_TWILIO_TOKEN
-
-## 🛠 Run
-
-1. Once the dependencies are installed, you can run via IDE or Maven.
-2. Test Endpoints via Postman (or your preferred API tester) on port 9090: `http://localhost:9090/api/v1/...`
-   > Please check the documentation (Postman/Swagger) above to see the available endpoints and change `Dev Env`
-
-## 🔗 Notas Importantes
-> If you want to use other Mail Service, please check [Spring Email](https://www.baeldung.com/spring-email) and change
-> `host: your_service`, `username` and `password` from `application.yml` with new data.
-
-Remember change env local variable `env: MAIL: ${YOUR_ENV_NAME}` in `application.yml`.
