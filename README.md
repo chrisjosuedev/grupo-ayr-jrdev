@@ -49,9 +49,11 @@ Para ejecutar la aplicación es necesario que realize unas configuraciones previ
 
 > 🛠 Ejecutar
 1. Primero, hay que crear el build del cliente: ejecutar el siguiente comando: `npm run build`
-2. Una vez realizadas las configuraciones anteriores, puede correr el proyecto en modo de desarrollo o de produccion (en root del proyecto ``.../jrdev-prueba-cristhian-martinez/``):
+2. Una vez realizadas las configuraciones anteriores, puede correr el proyecto (en root del proyecto ``.../jrdev-prueba-cristhian-martinez/``):
     - `npm start` para modo producción.
-    - `npm run dev` para modo desarrollo.
+3. Una vez realizado, el proyecto se ejecutara y puede acceder a través de `http://localhost:3000/` en el navegador. Se muestra el siguiente mensaje en consola indicando que todo esta correcto:
+
+![CMD Message](https://github.com/chrisjosuedev/my-assets/blob/main/readms/cmd.png?raw=true)
 
 ## 🔗 Notas Importantes
 > Para más detalle sobre cada servicio, revisar README.md disponibles en cada proyecto.
