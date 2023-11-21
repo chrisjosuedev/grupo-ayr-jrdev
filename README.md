@@ -48,7 +48,8 @@ Para ejecutar la aplicación es necesario que realize unas configuraciones previ
 ![DB Config](https://github.com/chrisjosuedev/my-assets/blob/main/readms/db-config.PNG?raw=true)
 
 > 🛠 Ejecutar
-1. Una vez realizadas las configuraciones anteriores, puede correr el proyecto en modo de desarrollo o de produccion (en root del proyecto ``.../jrdev-prueba-cristhian-martinez/``):
+1. Primero, hay que crear el build del cliente: ejecutar el siguiente comando: `npm run build`
+2. Una vez realizadas las configuraciones anteriores, puede correr el proyecto en modo de desarrollo o de produccion (en root del proyecto ``.../jrdev-prueba-cristhian-martinez/``):
     - `npm start` para modo producción.
     - `npm run dev` para modo desarrollo.
 
